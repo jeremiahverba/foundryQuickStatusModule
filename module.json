@@ -1,7 +1,7 @@
 {
-  "name": "module",
-  "title": "New Module",
-  "description": "",
+  "name": "quick-status",
+  "title": "Quick Status - easy status selector",
+  "description": "A module that helps you quickly find the status effect to apply on a token for the Foundry Virtual Tabletop framework.",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.0.0",
@@ -9,26 +9,15 @@
   "compatibleCoreVersion": "0.7.9",
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "Jeremiah Verba",
+      "url": "https://github.com/jeremiahverba"
     }
   ],
-  "dependencies": [
-
-  ],
-  "conflicts": [
-    
-  ],
-  "esmodules": [
-    "/scripts/module.js"
-  ],
-  "scripts": [
-    "/scripts/lib/lib.js"
-  ],
-  "styles": [
-    "/styles/module.css"
-  ],
+  "dependencies": [],
+  "conflicts": [],
+  "esmodules": ["/scripts/module.js"],
+  "scripts": ["/scripts/lib/lib.js"],
+  "styles": ["/styles/module.css"],
   "languages": [
     {
       "lang": "en",
